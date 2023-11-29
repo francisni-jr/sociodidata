@@ -17,9 +17,9 @@ module.exports = ({
       'error': '#D20F46',
     },
     fontFamily: {
-      header: ['Delius Unicase', 'Serif'],
+      header: ['Nova Square', 'Serif'],
       general: ['Neucha', 'cursive'],
-      highlight: ["Rock Salt"],
+      highlight: ["Black Ops One", "sans-serif"],
     },
     spacing: {
       px: '1px',
