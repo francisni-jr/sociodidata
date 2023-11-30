@@ -9,7 +9,6 @@
   <title>Francisni.xyz HOME</title>
 </svelte:head>
 
-<!--<HomeLoader  />-->
 
 
 

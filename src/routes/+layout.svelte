@@ -1,7 +1,8 @@
 <script>
   import '../app.postcss';
 	import { ChevronDownIcon, GridIcon, HashIcon, Navigation2Icon,
-	GithubIcon,CoffeeIcon, InstagramIcon, XCircleIcon, HomeIcon, CopyIcon, InfoIcon,
+	GithubIcon,CoffeeIcon, InstagramIcon, XCircleIcon, HomeIcon, ArrowLeftIcon,
+	ArrowRightIcon, InfoIcon,
 	MoonIcon, HelpCircleIcon, HeartIcon, MapIcon, MessageCircleIcon, YoutubeIcon,
 	CodeIcon} from 'svelte-feather-icons'
 	
@@ -85,7 +86,8 @@
                     </li>
                   </ul>
                 </section>
-                <section class="sm:hidden sidebar-footer justify-end bg-gray-2 pt-2">
+                <section class="
+                sidebar-footer justify-end bg-gray-2 pt-2">
                   <div class="divider my-0"></div>
                   <ul class="flex w-full h-full justify-center items-center">
                     <li class="flex
