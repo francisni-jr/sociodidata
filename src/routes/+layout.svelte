@@ -53,7 +53,7 @@
                       </a>
                     </li>
                     <li class="flex justify-center p-5 rounded-lg bg-action items-center gap-5">
-                      <a href="/perguntas-frequentes">
+                      <a href="/duvidas">
                         <i class="text-base tooltip tooltip-click
                               tooltip-secondary tooltip-top" data-tooltip="dúvidas">
                           <HelpCircleIcon size="30" />
