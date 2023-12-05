@@ -49,10 +49,15 @@
     </div>
   </section>
   <section class="mt-ls p-ls mt-30">
-    <h2 class="text-3xl font-header text-building py-5">INTRODUÇÃO RÁPIDA</h2>
+    <h2 class="text-3xl font-highlight text-elementary py-5">INTRODUZA-SE | APRENDA A
+    APRENDER COMIGO</h2>
     <div class="relative h-0 overflow-hidden max-w- w-full" style="padding-bottom: 56.25%">
       <iframe src="https://ytlink" frameborder="0" allowfullscreen
         class="absolute rounded-lg top-0 left-0 w-full h-full"></iframe>
     </div>
+    <!--<div class="p-5 flex flex-col gap-5 text-base bg-building mt-10 rounded-lg">-->
+    <!--  <h3 class="text-2xl font-header" >Descrição</h3>-->
+    <!--  <p>Gostou do vídeo?</p>-->
+    <!--</div>-->
   </section>
 </main>
