@@ -1,13 +1,17 @@
+<svelte:head>
+  <title>HOME</title>
+  <meta name="description" content="O ponto de partida para este universo">
+  <meta name="keywords" content="FRANCISNÍ, HOME, PÁGINA">
+  <meta name="author" content="Francisní Gomes">
+</svelte:head>
+
+
 <script type="text/javascript" charset="utf-8">
   import HomeLoader from '../loaders/HomeLoader.svelte'
   import { PlayIcon, SearchIcon, ArrowUpIcon, ArrowDownIcon, GithubIcon,
   InstagramIcon, FastForwardIcon, ChevronsDownIcon, SunriseIcon, ZoomInIcon,
   CheckCircleIcon, ChevronsUpIcon } from 'svelte-feather-icons'
 </script>
-
-<svelte:head>
-  <title>Francisni.xyz HOME</title>
-</svelte:head>
 
 
 

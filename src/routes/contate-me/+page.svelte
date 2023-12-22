@@ -1,5 +1,8 @@
 <svelte:head>
-  <title>DÚVIDAS</title>
+  <title>CONTATAR</title>
+  <meta name="description" content="Entre em contato comigo atravéz desta página">
+  <meta name="keywords" content="FRANCISNÍ, CONTATAR, PÁGINA">
+  <meta name="author" content="Francisní Gomes">
 </svelte:head>
 
 <script type="text/javascript" charset="utf-8">
@@ -34,16 +37,12 @@
         <LayoutIcon size="30" /> 1. ESTRUTURA DO WEBSITE: Me ajude a melhorar o
         website dando dicas ou citando problemas
       </li>
-      <li class="flex items-center gap-5">
-        <UsersIcon size="30" /> 2. CURSOS DA COMUNIDADE: Caso queira ajudar a
-        comunidade com cursos (Gravações de audio)
-      </li>
             <li class="flex items-center gap-5">
-        <UserPlusIcon size="30" /> 3. PARCERIA: Se
+        <UserPlusIcon size="30" /> 2. PARCERIA: Se
         quiser fazer alguma parceria ou colaborar com o projeto dite PARCERIA.
       </li>
             <li class="flex items-center gap-5">
-        <HelpCircleIcon size="30" /> 4. DÚVIDA: Me envie sua dúvida e a
+        <HelpCircleIcon size="30" /> 3. DÚVIDA: Me envie sua dúvida e a
         colocarei na página de dúvidas com a resposta incluída!</li>
                     <li class="flex items-center gap-5">
         <GlobeIcon size="30" /> 4. OUTRO: Esteja livre para enviar qualquer

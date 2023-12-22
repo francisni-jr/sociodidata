@@ -2,63 +2,23 @@
 
 const site = "https://francisni.xyz"
 
-const ebooks = {
-    page: "ebooks",
-    slug: "resources/ebooks", 
-}
+const pages = ["sobre", "duvidas", "sitemap", "contate-me", "youtube", "tema"]
 
-const ebooksdemos = [
-  {
-    title: "Ebook-001",
-    slug: "top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo",
-    updatedAt: "2023-07-22"
-  }
+const posts = [
+  // {
+  //   title: "",
+  //   slug: "what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world", 
+  //   changeFreq: "monthly",
+  //   updatedAt: ""
+  // }
   ]
 
-const blog = {
-    page: "blog",
-    slug: "resources/blog",
-    languages: [
-      {
-        value: 'spanish',
-        slug: 'resources/blog/spanish',
-        updatedAt: "2023-07-22"
-      }
-    ]
-}
-
-const spanishblogposts = [
-  {
-    title: "Spanish-001",
-    slug: "what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world", 
-    language: 'spanish',
-    updatedAt: "2023-06-18"
-  }
-  ]
-  
-
-const pages = ["about", "resources", "faq"]
-
-
-const tutoring = {
-    page: "tutoring",
-    slug: "resources/tutoring", 
-}
-
-const tutoringposts = [
-  {
-    title: "Tutoring-001",
-    slug: "japanese-learning-map-with-only-free-tools", 
-    updatedAt: "2023-07-24"
-  }
-  ]
-  
   
 /** @type {import('./$types').RequestHandler} */
 export async function GET({
     url
 }) {
-    const body = sitemap(spanishblogposts, pages);
+    const body = sitemap(posts, pages);
     const response = new Response(body);
     response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');
     response.headers.set('Content-Type', 'application/xml');
@@ -86,55 +46,12 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
     <priority>0.7</priority>
   </url>
   `).join('')}
-    <url>
-  <loc>${site}/${blog.slug}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>${site}/${tutoring.slug}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>${site}/${ebooks.slug}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  ${blog.languages.map((post) => post.visible ? null : `
+
+ 
+  ${posts.map((post) => post.visible ? null : `
   <url>
     <loc>${site}/${post.slug}</loc>
-    <changefreq>weekly</changefreq>
-    <lastmod>${post.updatedAt}</lastmod>
-    <priority>0.3</priority>
-  </url>
-  `
-		)
-		.join('')}
-  ${spanishblogposts.map((post) => post.visible ? null : `
-  <url>
-    <loc>${site}/${blog.slug}/${post.language}/${post.slug}</loc>
-    <changefreq>weekly</changefreq>
-    <lastmod>${post.updatedAt}</lastmod>
-    <priority>0.3</priority>
-  </url>
-  `
-		)
-		.join('')}
-		  ${ebooksdemos.map((post) => post.visible ? null : `
-  <url>
-    <loc>${site}/${ebooks.slug}/${post.slug}</loc>
-    <changefreq>weekly</changefreq>
-    <lastmod>${post.updatedAt}</lastmod>
-    <priority>0.3</priority>
-  </url>
-  `
-		)
-		.join('')}
-		${tutoringposts.map((post) => post.visible ? null : `
-  <url>
-    <loc>${site}/${tutoring.slug}/${post.slug}</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>${post.changeFreq}</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
   </url>

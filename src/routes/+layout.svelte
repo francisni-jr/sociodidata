@@ -107,9 +107,9 @@
                                                             justify-center p-5
                                                             rounded-lg bg
                                                rounded-lg items-center gap-5">
-                      <a href="https://github.com/francisni-jr/francisni.xyz">
+                      <a href="/tema">
                         <i class=" tooltip tooltip-click
-                              tooltip-secondary tooltip-top" data-tooltip="fonte">
+                              tooltip-secondary tooltip-top" data-tooltip="tema">
                           <MoonIcon size="20" />
                         </i>
                       </a>

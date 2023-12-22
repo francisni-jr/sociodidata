@@ -1,5 +1,8 @@
 <svelte:head>
   <title>DÚVIDAS</title>
+  <meta name="description" content="Tire suas principais dúvidas nesta página">
+  <meta name="keywords" content="FRANCISNÍ, DÚVIDAS, PÁGINA">
+  <meta name="author" content="Francisní Gomes">
 </svelte:head>
 
 <script type="text/javascript" charset="utf-8">

@@ -1,5 +1,8 @@
 <svelte:head>
   <title>SOBRE</title>
+  <meta name="description" content="Saiba mais sobre o projrto e sobre mim">
+  <meta name="keywords" content="FRANCISNÍ, SOBRE, PÁGINA">
+  <meta name="author" content="Francisní Gomes">
 </svelte:head>
 
 <script type="text/javascript" charset="utf-8">
@@ -26,10 +29,6 @@
         <YoutubeIcon size="30" /> Acesse os vídeos diretamente pelo website, ou
         também acompanhe pelo próprio app do Youtube.
       </li>
-      <li class="flex items-center gap-5">
-        <UsersIcon size="30" /> Cursos da comunidade em que você também pode
-        compartilhar o seu conhecomento por lá!
-      </li>
       
       <li class="flex items-center gap-5">
         <LayersIcon size="30" /> E ainda muito mais features a desenvolver
@@ -50,7 +49,7 @@
       sou o desenvolvedor base deste projeto</h2>
     <figure class="flex gap-5">
       <img class="w-[20vw] rounded-lg"
-        src="https://res.cloudinary.com/dt2se4cle/image/upload/v1701359980/IMG-20231126-WA0006_qj6z9i.jpg" alt="" />
+        src="https://res.cloudinary.com/dt2se4cle/image/upload/v1703276682/IMG_20231217_132521_ui0fj8.png" alt="" />
       <figcaption>Sou AUTODIDATA há um bom tempo e quero passar essa característica para
         mais e mais pessoas que estão presas ao sistema e não conseguem adquirir
         habilidades essenciais para suas vidas!

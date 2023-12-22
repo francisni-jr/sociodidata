@@ -1,5 +1,8 @@
 <svelte:head>
-  <title>SOBRE</title>
+  <title>YOUTUBE</title>
+  <meta name="description" content="Blog e Canal em um só lugar">
+  <meta name="keywords" content="FRANCISNÍ, YOUTUBE, PÁGINA">
+  <meta name="author" content="Francisní Gomes">
 </svelte:head>
 
 <script type="text/javascript" charset="utf-8">
