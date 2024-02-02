@@ -12,7 +12,7 @@
 </script>
 
 
-<main class="mx-[2rem] mt-30 overflow-hidden relative max-w-[60vw] md:left-[30vw]">
+<main class="mx-[2rem] mt-20 overflow-hidden relative max-w-[60vw] md:left-[30vw]">
   <section class="">
     <h1 class="text-3xl font-highlight text-elementary">SOBRE O TEMA</h1>
     <p class="text-xl ">Cores e fontes utilizadas</p>

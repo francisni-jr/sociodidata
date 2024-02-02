@@ -1,8 +1,9 @@
 //app/sitemap.xml.svelte
 
-const site = "https://francisni.xyz"
+const site = "https://sociodidata.xyz"
 
-const pages = ["sobre", "duvidas", "sitemap", "contate-me", "youtube", "tema"]
+const pages = ["sobre", "duvidas", "sitemap", "contate-me", "youtube", "tema",
+"recursos"]
 
 const posts = [
   // {

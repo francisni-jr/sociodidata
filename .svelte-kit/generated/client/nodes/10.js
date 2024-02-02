@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/youtube/melhores-apps-de-produtividade-2024/+page.svelte";

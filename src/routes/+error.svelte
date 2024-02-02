@@ -3,10 +3,14 @@
 </script>
 
 
-<section class="flex mb-30  absolute max-w-[60vw]  md:left-[30vw] mx-[2rem] flex-col items-center justify-center">
+<section class="mx-[2rem] overflow-hidden relative max-w-[60vw] md:left-[30vw]
+ items-center justify-center">
   <div class="w-full flex flex-col justify-center items-center text-center" >
-    <h1 class="text-3xl text-base bg-error rounded-xl w-full font-highlight
-    py-5" >ERR 404</h1>
+       <figure class="flex gap-5">
+      <img class="w-[30vw] mt-20 rounded-lg"
+        src="https://res.cloudinary.com/dt2se4cle/image/upload/v1706210515/undraw_page_not_found_re_e9o6_pcosvu.svg"
+        alt="ilustração de reurso" />
+    </figure>
     <span class="text-2xl my-10" >
       Você chegou a um lugar desconhecido, tente navegar pelos menus para
       acessar uma página existente!

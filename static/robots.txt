@@ -5,8 +5,6 @@ Disallow: /*.js$
 Disallow: /*.json
 
 
-Sitemap: https://francisni.xyz/sitemap.xml.svelte
-Host: https://francisni.xyz
-
-
+Sitemap: https://sociodidata.xyz/sitemap.xml.svelte
+Host: https://sociodidata.xyz
 

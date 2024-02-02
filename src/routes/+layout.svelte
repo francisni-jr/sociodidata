@@ -3,7 +3,7 @@
 	import { ChevronDownIcon, GridIcon, HashIcon, Navigation2Icon,
 	GithubIcon,CoffeeIcon, InstagramIcon, XCircleIcon, HomeIcon, ArrowLeftIcon,
 	ArrowRightIcon, InfoIcon,
-	MoonIcon, HelpCircleIcon, HeartIcon, MapIcon, MessageCircleIcon, YoutubeIcon,
+	MoonIcon, HelpCircleIcon, HeartIcon, MapIcon, MessageCircleIcon, LayersIcon,
 	CodeIcon} from 'svelte-feather-icons'
 	
 </script>
@@ -29,7 +29,7 @@
                       alt="" />
                     
                   </div>
-                  <span class="mt-5">francisni.xyz</span>
+                  <span class="mt-5">sociodidata.xyz</span>
                 </section>
                 <section class="sidebar-content">
                   <div class="divider">
@@ -77,10 +77,11 @@
                       </a>
                     </li>
                     <li class="flex justify-center p-5 rounded-lg bg-action items-center gap-5">
-                      <a href="/youtube">
+                      <a href="/recursos">
                         <i class="text-base tooltip tooltip-click
-                              tooltip-secondary tooltip-top" data-tooltip="youtube">
-                          <YoutubeIcon size="30" />
+                              tooltip-secondary tooltip-top"
+                              data-tooltip="Recursos">
+                          <LayersIcon size="30" />
                         </i>
                       </a>
                     </li>

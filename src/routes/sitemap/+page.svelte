@@ -11,7 +11,7 @@
 </script>
 
 
-<main class="mx-[2rem] mt-30 overflow-hidden relative max-w-[60vw] md:left-[30vw]">
+<main class="mx-[2rem] mt-20 overflow-hidden relative max-w-[60vw] md:left-[30vw]">
   <section class="">
     <h1 class="text-3xl font-highlight text-elementary">MAPA DO SITE</h1>
     <p class="text-xl ">Um pequeno resumo das principais páginas</p>
@@ -31,13 +31,16 @@
     <button class="p-5 mt-5 rounded-lg  text-base bg-action" type="submit"><a
     class="flex gap-5 items-center" href="/contate-me">/contate-me
    </a></button>
-    <button class="p-5 mt-5 rounded-lg  text-base bg-action" type="submit"><a
-    class="flex gap-5 items-center" href="/youtube">/youtube
-   </a></button>
+  
     <button class="p-5 mt-5 rounded-lg  text-base bg-action" type="submit"><a
     class="flex gap-5 items-center" href="/tema">/tema
    </a></button>
-      
+   <button class="p-5 mt-5 rounded-lg  text-base bg-action" type="submit"><a
+    class="flex gap-5 items-center" href="/recursos">/recursos
+   </a></button>
+        <button class="p-5 mt-5 rounded-lg  text-base bg-action" type="submit"><a
+    class="flex gap-5 items-center" href="/youtube">/youtube
+   </a></button>
   </section>
  
 </main>
